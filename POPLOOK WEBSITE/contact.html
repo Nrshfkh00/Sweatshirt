@@ -1,67 +1,64 @@
 <!DOCTYPE html>
-<html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-body {font-family: Arial, Helvetica, sans-serif;}
-* {box-sizing: border-box;}
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, intial-scale=1.0">
+        <title>Web Baju</title>
+        <body style="background-color: rgb(247, 244, 246)"></body>
 
-input[type=text], select, textarea {
-  width: 100%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-  margin-top: 6px;
-  margin-bottom: 16px;
-  resize: vertical;
-}
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-input[type=submit] {
-  background-color: #04AA6D;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
+        <link rel="stylesheet" href="style.css">
 
-input[type=submit]:hover {
-  background-color: #45a049;
-}
+        <!--navbar-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-white py-10 stick-top">
 
-.container {
-  border-radius: 5px;
-  background-color: #f2f2f2;
-  padding: 20px;
-}
-</style>
-</head>
-<body>
+          <div class="container">
+           
+           <img src="gambar/POPLOOK.png" width="5%" class="float-left">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span><i id="bar" class="fa fa-bars" aria-hidden="true"></i></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto">
+             
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="whats new.html">What's New</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Booking form.html">Booking Form</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">About Us</a>
+                </li>
+              
+                
+               
+            </div>
+          </div>
+        </nav>
+  <br>
+  <br>
 
-<h3>POPLOOK CONTACT FORM</h3>
+  <div class="container mt-3">
+    <h1>About us</h1>
+<br>
+    <h2> <small>Ashura is a fashion brand since 2010.
+      We produce attractive Ready-To-Wear for modest fashion ladies.
+       Established from a textile background, we venture into creating our own fashion brands.
+        We strive to offer our clothing at an affordable price made for all of ages group.
+         In the recent 10 years, Ashura has gain popularity among modest ladies,
+          which results in the opening of more than 10 retail stores across Malaysia. 
+          Now with online stores, we aim to bring our products closer to you, so you could shop anytime and anywhere you are.</small></h2>
+  </div>
 
-<div class="container">
-  <form action="/action_page.php">
-    <label for="fname">First Name</label>
-    <input type="text" id="fname" name="firstname" placeholder="Your name..">
 
-    <label for="lname">Last Name</label>
-    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
 
-    <label for="country">Country</label>
-    <select id="country" name="country">
-      <option value="australia">Australia</option>
-      <option value="canada">Canada</option>
-      <option value="usa">USA</option>
-    </select>
-
-    <label for="subject">Subject</label>
-    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-
-    <input type="submit" value="Submit">
-  </form>
-</div>
-
-</body>
-</html>
+ </head>
+ <body>
